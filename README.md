@@ -9,6 +9,9 @@ Welcome to send a pull request to add papers and relevant content.
 
 ## Content
 - [Papers](#papers)
+  - [Human Aspects](#human-aspects)
+  - [Requirements Modeling](#requirements-modeling)
+  - [Requirements Prioritization](#requirements-prioritization)
   - [Surveys](#surveys)
 - [PhD Theses](#phd-theses)
 - [Talks](#talks)
@@ -18,6 +21,21 @@ Welcome to send a pull request to add papers and relevant content.
 - [Venues](#venues)
 
 # Papers
+
+## Human Aspects
+
+- **The Influence of Human Aspects on Requirements Engineering-related Activities: Software Practitioners' Perspective** (2021), TOSEM 2023. [[pdf]](https://arxiv.org/pdf/2109.07868.pdf)
+
+## Requirements Modeling
+
+- **Model Transformation Development Using Automated Requirements Analysis, Metamodel Matching, and Transformation by Example** (2022), TOSEM 2022. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3471907) 
+
+## Requirements Prioritization
+
+- **Uncertainty-wise Requirements Prioritization with Search** (2021), TOSEM 2021. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3408301).
+
+
+
 
 ## Survey
 
@@ -30,13 +48,22 @@ Welcome to send a pull request to add papers and relevant content.
 
 # Datasets
 
+- [RALIC](http://www0.cs.ucl.ac.uk/staff/S.Lim/soolinglim/Datasets.html#ralic):  The dataset contains data of stakeholders and their requirements. It can be used to assess requirements priorities and dependencies.
+
+- [Word](https://sites.google.com/site/mrkarim/data-sets): The dataset has 50 requirements and 81 requirements dependencies. It can be used to assess requirements priorities and dependencies.
+
+- [ReleasePlanner](https://sites.google.com/site/mrkarim/data-sets): This publicly accessible dataset has 25
+requirements and 39 dependencies. 
+
 
 # Tools
 
 # Research Groups
 
-- [Jin Zhi](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN), Peking University
-- [Shi Lin](https://people.ucas.edu.cn/~shilin?language=en), Beihang University
+- [Jin Zhi](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN), Peking University, requirements engineering and software automation.
+- [Shi Lin](https://people.ucas.edu.cn/~shilin?language=en), Beihang University, crowd requirements engineering.
+
+- [John Grundy](https://sites.google.com/site/johncgrundy/), Monash University, Human Aspects of RE. 
 
 # Venues
 
