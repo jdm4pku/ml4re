@@ -61,7 +61,6 @@ requirements and 39 dependencies.
 # Research Groups
 
 - [Jin Zhi](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN), Peking University, requirements engineering and software automation.
-- [Shi Lin](https://people.ucas.edu.cn/~shilin?language=en), Beihang University, crowd requirements engineering.
 
 - [John Grundy](https://sites.google.com/site/johncgrundy/), Monash University, Human Aspects of RE. 
 
