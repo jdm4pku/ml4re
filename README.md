@@ -23,7 +23,9 @@ Welcome to send a pull request to add papers and relevant content.
   - [Requirements Changes](#requirements-changes)
   - [Requirements Traceability](#requirements-traceability)
   - [Requirements Generation](#erquirements-generation)
+  - [Formal Requirements](#formal-requirements)
   - [Surveys](#surveys)
+  - [Misc](#misc)
 - [PhD Theses](#phd-theses)
 - [Talks](#talks)
 - [Datasets](#datasets)
@@ -40,6 +42,10 @@ Welcome to send a pull request to add papers and relevant content.
 ## Requirements Elicitation
 - **Strategies, Benefits and Challenges of App Store-inspired Requirements Elicitation** (2023), ICSE 2023. [[pdf]](https://ieeexplore.ieee.org/document/10172539)
 - **Towards a Formal Framework for Normative Requirements Elicitation** (2023), ASE 2023. [[pdf]]()
+- **ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Software Design** (2023), ArXiv 2023. [[pdf]]()
+- **Investigating ChatGPT's Potential to Assist in Requirements Elicitation Processes** (2023), ArXiv 2023. [[pdf]]()
+- **Towards dialogue based, computer aided software requirements elicitation** (2023), ArXiv 2023. [[pdf]]()
+- **Generating Requirements Elicitation Interview Scripts with Large Language Models** (2023), RE 2023. [[pdf]]()
 - **A Software Requirements Ecosystem: Linking Forum, Issue Tracker, and FAQs for Requirements Management** (2022), TSE 2022. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9940985)
 - **A Deep Multitask Learning Approach for Requirements Discovery and Annotation from Open Forum** (2020), ASE 2020. [[pdf]](https://dl.acm.org/doi/10.1145/3324884.3416627)
 
@@ -53,8 +59,10 @@ Welcome to send a pull request to add papers and relevant content.
 ## Requirements Validation
 - **Targeting Requirements Violations of Autonomous Driving Systems by Dynamic Evolutionary Search** (2021), ASE 2021. [[pdf]](https://ieeexplore.ieee.org/document/9678883)
 - **It Takes Two to Tango: Combining Visual and Textual Information for Detecting Duplicate Video-Based Bug Reports** (2021), ICSE 2021. [[pdf]]()
+- **NERO: A Text-based Tool for Content Annotation and Detection of Smells in Feature Requests** (2020), RE 2020. [[pdf]]()
 - **Evaluating model testing and model checking for finding requirements violations in Simulink models** (2019), FSE 2019. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3338906.3340444)
 - **Images don’t lie: Duplicate crowdtesting reports detection with screenshot information** (2019), IST2019. [[pdf]]()
+- **Inference of Properties from Requirements and Automation of Their Formal Verification** (2019), ASE 2019. [[pdf]]()
 - **Validation of requirements for hybrid systems: A formal approach** (2012), TOSEM 2012. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2377656.2377659)
 - **An Experimental Study of Fault Detection In User Requirements Documents** (1992), TOSEM 1992. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/128894.128897)
 
@@ -63,12 +71,16 @@ Welcome to send a pull request to add papers and relevant content.
 
 ## Requirements Extraction
 > Extraction requirement from user review, SRS, QA-website, social media.
+- **Empirical Evaluation of ChatGPT on Requirements Information Retrieval Under Zero-Shot Setting** (2023), ArXiv 2023. [[pdf]]()
+- **Zero-shot Learning for Named Entity Recognition in Software Specification Documents** (2023), RE2023. [[pdf]]()
 - **Where is Your App Frustrating Users** (2022), ICSE 2022. [[pdf]]()
 - **COREQQA: a COmpliance REQuirements understanding using question answering tool** (2022), FSE 2022. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3558926)
 - **Identifying Key Features from App User Reviews** (2021), ICSE 2021. [[pdf]]()
+- **ISPY: Automatic Issue-Solution Pair Extraction from Community Live Chats** (2021), ASE 2021. [[pdf]]()
 - **Learning to extract transaction function from requirements: an industrial case on financial software** (2020), FSE 2020. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3368089.3417053)
 - **Automatic Extraction of Cause-Effect-Relations from Requirements Artifacts** (2020), ASE 2020. [[pdf]](https://dl.acm.org/doi/10.1145/3324884.3416549)
 - **Caspar: extracting and synthesizing user stories of problems from app reviews** (2020), ICSE 2020. [[pdf]]()
+- **Automated Extraction of Requirement Entities by Leveraging LSTM-CRF and Transfer Learning** (2020), ICSME. [[pdf]]()
 - **Supporting analysts by dynamic extraction and classification of requirements-related knowledge** (2019), ICSE 2019. [[pdf]](https://ieeexplore.ieee.org/document/8812084)
 - **Pattern-based mining of opinions in Q&A websites** (2019), ICSE 2019. [[pdf]]()
 - **INFAR: insight extraction from app reviews** (2018), FSE 2018. [[pdf]]()
@@ -84,6 +96,7 @@ Welcome to send a pull request to add papers and relevant content.
 
 
 ## Requirements Classification
+- **Which AI Technique Is Better to Classify Requirements? An Experiment with SVM, LSTM, and ChatGPT** (2023), ArXiv 2023. [[pdf]]()
 - **PRCBERT: Prompt Learning for Requirement Classification using BERT-based Pretrained Language Models** (2022), ASE 2022. [[pdf]](https://dl.acm.org/doi/10.1145/3551349.3560417)
 - **Automated classification of actions in bug reports of mobile apps** (2020), ISSTA. [[pdf]]()
 - **Domain Adaptation for Test Report Classification in Crowdsourced Testing** (2017), ICSE 2017. [[pdf]]()
@@ -98,8 +111,10 @@ Welcome to send a pull request to add papers and relevant content.
 - **Automated Handling of Anaphoric Ambiguity in Requirements: A Multi-solution Study** (2022), ICSE 2022. [[pdf]](https://dl.acm.org/doi/10.1145/3510003.3510157) 
 - **TAPHSIR: towards AnaPHoric ambiguity detection and ReSolution in requirements** (2022), FSE 2022. [[pdf]](https://dl.acm.org/doi/10.1145/3540250.3558928)
 - **Using Domain-specific Corpora for Improved Handling of Ambiguity in Requirements** (2021), ICSE 2021. [[pdf]](https://ieeexplore.ieee.org/document/9402055/)
+- **A Deep Context-wise Method for Coreference Detection in Natural Language Requirements** (2020), RE 2020. [[pdf]]()
 
 ## Requirements Consistency
+- **Inconsistency Detection in Natural Language Requirements using ChatGPT: a Preliminary Evaluation** (2023), RE 2023. [[pdf]]()
 - **Consistency checking in requirements analysis** (2017), ISSTA 2017. [[pdf]](https://dl.acm.org/doi/10.1145/3092703.3098239)
 - **Reasoning about inconsistencies in natural language requirements** (2005), TOSEM 2015. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/1072997.1072999)
 - **Automated Consistency Checking of Requirements Specifications** (1996), TOSEM 1996. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/234426.234431)
@@ -125,6 +140,8 @@ Welcome to send a pull request to add papers and relevant content.
 - **Using Consensual Biterms from Text Structures of Requirements and Code to Improve IR-Based Traceability Recovery** (2022), ASE 2022. [[pdf]](https://dl.acm.org/doi/10.1145/3551349.3556948)
 - **A novel approach to tracing safety requirements and state-based design models** (2020), ICSE 2020. [[pdf]](https://dl.acm.org/doi/10.1145/3377811.3380332)
 - **Leveraging Historical Associations between Requirements and Source Code to Identify Impacted Classes** (2020), TSE 2020. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8423658)
+- **Improving the effectiveness of traceability link recovery using hierarchical bayesian networks** (2020), ICSE 2020. [[pdf]]()
+- **Establishing multilevel test-to-code traceability links** (2020), ICSE 2020. [[pdf]]()
 - **Traceability in the wild: automatically augmenting incomplete trace links** (2018), ICSE 2018. [[pdf]]()
 - **Imprecise Matching of Requirements Specifications for Software Services Using Fuzzy Logic** (2017), TSE 2017. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7755807)
 - **Preventing Defects: The Impact of Requirements Traceability Completeness on Software Quality** (2017), TSE 2017. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7723818)
@@ -132,11 +149,29 @@ Welcome to send a pull request to add papers and relevant content.
 - **Gray links in the use of requirements traceability** (2016), FSE 2016. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2950290.2950354)
 
 ## Requirements Generation
-- **On-Demand Security Requirements Synthesis with Relational Generative Adversarial Networks.** (2023), ICSE 2023. [[pdf]](https://ieeexplore.ieee.org/document/10172729/)
+- **On-Demand Security Requirements Synthesis with Relational Generative Adversarial Networks** (2023), ICSE 2023. [[pdf]](https://ieeexplore.ieee.org/document/10172729/)
+- **Towards Human-Bot Collaborative Software Architecting with ChatGPT** (2023), EASE 2023. [[pdf]]()
+- **Impact of Large Language Models on Generating Software Specifications** (2023), ArXiv 2023. [[pdf]]()
+- **Improving Requirements Completeness: Automated Assistance through Large Language Models** (2023), ArXiv 2023. [[pdf]]()
+- **Automated Generating Natural Language Requirements based on Domain Ontology** (2022), ArXiv 2022. [[pdf]]()
 - **StoryDroid: automated generation of storyboard for Android apps** (2019), ICSE 2019. [[pdf]](https://ieeexplore.ieee.org/document/8812084)
+- **Automatic Generation of Graphical User Interface Prototypes from Unrestricted Natural Language Requirements** (2019), ASE 2019.
+
+## Formal Requirements
+- **DeepSTL - From English Requirements to Signal Temporal Logic** (2022), ICSE 2022. [[pdf]]()
+
 
 ## Survey
 - **Status Quo in Requirements Engineering: A Theory and a Global Family of Surveys** (2019), TOSEM 2019. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3306607)
+
+## Misc
+- **Advancing Requirements Engineering through Generative AI: Assessing the Role of LLMs** (2023), ArXiv 2023. [[pdf]]()
+- **Advancing Requirements Engineering through Generative AI: Assessing the Role of LLMs** (2023), ArXiv 2023. [[pdf]]()
+- **AI-based Question Answering Assistance for Analyzing Natural-language Requirements** (2023), ICSE 2023. [[pdf]]()
+- **If a Human Can See It, So Should Your System: Reliability Requirements for Machine Vision Components** (2022), ICSE 2022. [[pdf]]()
+- **Dialogue Disentanglement in Software Engineering: How Far are We?** (2021), IJCAI 2021. [[pdf]]()
+- **MuiDial: Improving Dialogue Disentanglement with Intent-Based Mutual Learning** (2022), IJCAI 2022. [[pdf]]()
+
 
 
 # PhD Thesis
