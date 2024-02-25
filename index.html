@@ -1,4 +1,4 @@
-<h1>Machine Learning for Requirements Engineering</h1>
+﻿<h1>Machine Learning for Requirements Engineering</h1>
 <p><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jdm4pku/ml4re" /></p>
 <p>This repository contains a curated list of papers, datasets, and tools that are devoted to research on Machine Learning for Requirements Engineering. </p>
 <p>This repository is referred to <a href="https://github.com/saltudelft/ml4se">saltudelft/ml4se</a>. Next, I will keep adding papers I read、datasets and tools. </p>
@@ -19,7 +19,10 @@
 <li><a href="#requirements-dependency">Requirements Dependency</a></li>
 <li><a href="#requirements-changes">Requirements Changes</a></li>
 <li><a href="#requirements-traceability">Requirements Traceability</a></li>
+<li><a href="#erquirements-generation">Requirements Generation</a></li>
+<li><a href="#formal-requirements">Formal Requirements</a></li>
 <li><a href="#surveys">Surveys</a></li>
+<li><a href="#misc">Misc</a></li>
 <li><a href="#phd-theses">PhD Theses</a></li>
 <li><a href="#talks">Talks</a></li>
 <li><a href="#datasets">Datasets</a></li>
@@ -30,83 +33,162 @@
 <h1>Papers</h1>
 <h2>Human Aspects</h2>
 <ul>
-<li><strong>The Effects of Human Aspects on the Requirements Engineering Process: A Systematic Literature Review</strong> (2022), TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9325916">[pdf]</a></li>
-<li><strong>The Influence of Human Aspects on Requirements Engineering-related Activities: Software Practitioners' Perspective</strong> (2021), TOSEM 2023. <a href="https://arxiv.org/pdf/2109.07868.pdf">[pdf]</a></li>
+<li><strong>The Effects of Human Aspects on the Requirements Engineering Process: A Systematic Literature Review</strong> TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9325916">[pdf]</a></li>
+<li><strong>The Influence of Human Aspects on Requirements Engineering-related Activities: Software Practitioners' Perspective</strong> TOSEM 2023. <a href="https://arxiv.org/pdf/2109.07868.pdf">[pdf]</a></li>
 </ul>
 <h2>Requirements Elicitation</h2>
 <ul>
-<li><strong>Towards a Formal Framework for Normative Requirements Elicitation</strong> (2023), ASE 2023. <a href="">[pdf]</a></li>
-<li><strong>A Software Requirements Ecosystem: Linking Forum, Issue Tracker, and FAQs for Requirements Management</strong> (2022), TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9940985">[pdf]</a></li>
-<li><strong>A Deep Multitask Learning Approach for Requirements Discovery and Annotation from Open Forum</strong> (2020), ASE 2020. <a href="https://dl.acm.org/doi/10.1145/3324884.3416627">[pdf]</a></li>
+<li><strong>Strategies, Benefits and Challenges of App Store-inspired Requirements Elicitation</strong> ICSE 2023. <a href="https://ieeexplore.ieee.org/document/10172539">[pdf]</a></li>
+<li><strong>Towards a Formal Framework for Normative Requirements Elicitation</strong>  ASE 2023. <a href="">[pdf]</a></li>
+<li><strong>ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Software Design</strong> ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>Investigating ChatGPT's Potential to Assist in Requirements Elicitation Processes</strong> ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>Towards dialogue based, computer aided software requirements elicitation</strong> ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>Generating Requirements Elicitation Interview Scripts with Large Language Models</strong> RE 2023. <a href="">[pdf]</a></li>
+<li><strong>A Software Requirements Ecosystem: Linking Forum, Issue Tracker, and FAQs for Requirements Management</strong> TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9940985">[pdf]</a></li>
+<li><strong>A Deep Multitask Learning Approach for Requirements Discovery and Annotation from Open Forum</strong> ASE 2020. <a href="https://dl.acm.org/doi/10.1145/3324884.3416627">[pdf]</a></li>
 </ul>
 <h2>Requirements Modeling</h2>
 <ul>
-<li><strong>Model Transformation Development Using Automated Requirements Analysis, Metamodel Matching, and Transformation by Example</strong> (2022), TOSEM 2022. <a href="https://dl.acm.org/doi/pdf/10.1145/3471907">[pdf]</a> </li>
-<li><strong>Dealing with Non-Functional Requirements in Model-Driven Development: A Survey</strong> (2021), TSE 2021. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8665968">[pdf]</a></li>
-<li><strong>FREPA: An Automated and Formal Approach to Requirement Modeling and Analysis in Aircraft Control Domain</strong> (2020), FSE 2020. <a href="https://arxiv.org/pdf/2306.01260.pdf">[pdf]</a></li>
-<li><strong>Prema: A Tool for Precise Requirements Editing, Modeling and Analysis</strong> (2020), ASE 2020. <a href="">[pdf]</a></li>
-<li><strong>Automated Reuse of Model Transformations through Typing Requirements Models</strong> (2019), TOSEM 2019. <a href="https://dl.acm.org/doi/pdf/10.1145/3340108">[pdf]</a></li>
+<li><strong>Model Transformation Development Using Automated Requirements Analysis, Metamodel Matching, and Transformation by Example</strong> TOSEM 2022. <a href="https://dl.acm.org/doi/pdf/10.1145/3471907">[pdf]</a> </li>
+<li><strong>Dealing with Non-Functional Requirements in Model-Driven Development: A Survey</strong> TSE 2021. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8665968">[pdf]</a></li>
+<li><strong>FREPA: An Automated and Formal Approach to Requirement Modeling and Analysis in Aircraft Control Domain</strong>  FSE 2020. <a href="https://arxiv.org/pdf/2306.01260.pdf">[pdf]</a></li>
+<li><strong>Prema: A Tool for Precise Requirements Editing, Modeling and Analysis</strong> ASE 2020. <a href="">[pdf]</a></li>
+<li><strong>Automated Reuse of Model Transformations through Typing Requirements Models</strong> TOSEM 2019. <a href="https://dl.acm.org/doi/pdf/10.1145/3340108">[pdf]</a></li>
 </ul>
 <h2>Requirements Validation</h2>
 <ul>
-<li><strong>Targeting Requirements Violations of Autonomous Driving Systems by Dynamic Evolutionary Search</strong> (2021), ASE 2021. <a href="https://ieeexplore.ieee.org/document/9678883">[pdf]</a></li>
-<li><strong>Evaluating model testing and model checking for finding requirements violations in Simulink models</strong> (2019), FSE 2019. <a href="https://dl.acm.org/doi/pdf/10.1145/3338906.3340444">[pdf]</a></li>
-<li><strong>Validation of requirements for hybrid systems: A formal approach</strong> (2012), TOSEM 2012. <a href="https://dl.acm.org/doi/pdf/10.1145/2377656.2377659">[pdf]</a></li>
-<li><strong>An Experimental Study of Fault Detection In User Requirements Documents</strong> (1992), TOSEM 1992. <a href="https://dl.acm.org/doi/pdf/10.1145/128894.128897">[pdf]</a></li>
+<li><strong>Targeting Requirements Violations of Autonomous Driving Systems by Dynamic Evolutionary Search</strong> ASE 2021. <a href="https://ieeexplore.ieee.org/document/9678883">[pdf]</a></li>
+<li><strong>It Takes Two to Tango: Combining Visual and Textual Information for Detecting Duplicate Video-Based Bug Reports</strong> ICSE 2021. <a href="">[pdf]</a></li>
+<li><strong>NERO: A Text-based Tool for Content Annotation and Detection of Smells in Feature Requests</strong> RE 2020. <a href="">[pdf]</a></li>
+<li><strong>Evaluating model testing and model checking for finding requirements violations in Simulink models</strong> FSE 2019. <a href="https://dl.acm.org/doi/pdf/10.1145/3338906.3340444">[pdf]</a></li>
+<li><strong>Images don’t lie: Duplicate crowdtesting reports detection with screenshot information</strong> IST2019. <a href="">[pdf]</a></li>
+<li><strong>Inference of Properties from Requirements and Automation of Their Formal Verification</strong> ASE 2019. <a href="">[pdf]</a></li>
+<li><strong>Validation of requirements for hybrid systems: A formal approach</strong> TOSEM 2012. <a href="https://dl.acm.org/doi/pdf/10.1145/2377656.2377659">[pdf]</a></li>
+<li><strong>An Experimental Study of Fault Detection In User Requirements Documents</strong> TOSEM 1992. <a href="https://dl.acm.org/doi/pdf/10.1145/128894.128897">[pdf]</a></li>
 </ul>
 <h2>Requirements Specifications</h2>
 <ul>
-<li><strong>How Templated Requirements Specifications Inhibit Creativity in Software Engineering</strong> (2022), TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9537306">[pdf]</a></li>
+<li><strong>How Templated Requirements Specifications Inhibit Creativity in Software Engineering</strong> TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9537306">[pdf]</a></li>
 </ul>
 <h2>Requirements Extraction</h2>
 <ul>
-<li><strong>COREQQA: a COmpliance REQuirements understanding using question answering tool</strong> (2022), FSE 2022. <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558926">[pdf]</a></li>
-<li><strong>Learning to extract transaction function from requirements: an industrial case on financial software</strong> (2020), FSE 2020. <a href="https://dl.acm.org/doi/pdf/10.1145/3368089.3417053">[pdf]</a></li>
-<li><strong>Automatic Extraction of Cause-Effect-Relations from Requirements Artifacts</strong> (2020), ASE 2020. <a href="https://dl.acm.org/doi/10.1145/3324884.3416549">[pdf]</a></li>
-<li><strong>Automated Extraction and Clustering of Requirements Glossary Terms</strong> (2017), TSE 2017. <a href="https://ieeexplore.ieee.org/document/7765062">[pdf]</a></li>
+<li><strong>Empirical Evaluation of ChatGPT on Requirements Information Retrieval Under Zero-Shot Setting</strong> ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>Zero-shot Learning for Named Entity Recognition in Software Specification Documents</strong> RE 2023. <a href="">[pdf]</a></li>
+<li><strong>Where is Your App Frustrating Users</strong> ICSE 2022. <a href="https://arxiv.org/abs/2204.09310">[pdf]</a> <a href="">[code]</a></li>
+<li><strong>COREQQA: a COmpliance REQuirements understanding using question answering tool</strong> FSE 2022. <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558926">[pdf]</a></li>
+<li><strong>Identifying Key Features from App User Reviews</strong> ICSE 2021. <a href="https://ieeexplore.ieee.org/document/9402119">[pdf]</a> <a href="https://github.com/GIST-NJU/KEFE">[code]</a></li>
+<li><strong>ISPY: Automatic Issue-Solution Pair Extraction from Community Live Chats</strong> ASE 2021. <a href="">[pdf]</a></li>
+<li><strong>Learning to extract transaction function from requirements: an industrial case on financial software</strong> FSE 2020. <a href="https://dl.acm.org/doi/pdf/10.1145/3368089.3417053">[pdf]</a></li>
+<li><strong>Automatic Extraction of Cause-Effect-Relations from Requirements Artifacts</strong> ASE 2020. <a href="https://dl.acm.org/doi/10.1145/3324884.3416549">[pdf]</a></li>
+<li><strong>Caspar: extracting and synthesizing user stories of problems from app reviews</strong> ICSE 2020. <a href="">[pdf]</a></li>
+<li><strong>Automating Intention Mining</strong> TSE 2020. <a href="">[pdf]</a></li>
+<li><strong>Automated Extraction of Requirement Entities by Leveraging LSTM-CRF and Transfer Learning</strong> ICSME 2019. <a href="">[pdf]</a></li>
+<li><strong>Supporting analysts by dynamic extraction and classification of requirements-related knowledge</strong> ICSE 2019. <a href="https://ieeexplore.ieee.org/document/8812084">[pdf]</a></li>
+<li><strong>Pattern-based mining of opinions in Q&amp;A websites</strong> ICSE 2019. <a href="">[pdf]</a></li>
+<li><strong>INFAR: insight extraction from app reviews</strong> FSE 2018. <a href="">[pdf]</a></li>
+<li><strong>On user rationale in software engineering</strong> Requir.Eng 2018. <a href="">[pdf]</a></li>
+<li><strong>Online app review analysis for identifying emerging issues</strong> ICSE 2018. <a href="">[pdf]</a></li>
+<li><strong>Infar: Insight extraction from app reviews</strong> FSE 2018. <a href="">[pdf]</a></li>
+<li><strong>SAFE: A Simple Approach for Feature Extraction from App Descriptions andApp Reviews</strong> RE 2017. <a href="">[pdf]</a></li>
+<li><strong>Automated Extraction and Clustering of Requirements Glossary Terms</strong> TSE 2017. <a href="https://ieeexplore.ieee.org/document/7765062">[pdf]</a></li>
+<li>
+<p><strong>A systematic literature review: Opinion mining studies from mobile app store user reviews</strong> JSS 2017. <a href="">[pdf]</a></p>
+</li>
+<li>
+<p><strong>What would users change in my app? summarizing app reviews for recommending software changes</strong> FSE 2016. <a href="">[pdf]</a></p>
+</li>
+<li><strong>Phrase-based extraction of user opinions in mobile app reviews</strong> ASE 2016. <a href="">[pdf]</a></li>
+<li><strong>What Parts of Your Apps are Loved by Users</strong> ASE 2015. <a href="">[pdf]</a></li>
+<li><strong>Mining User Opinions in Mobile App Reviews: A Keyword-Based Approach</strong> ASE 2015. <a href="">[pdf]</a></li>
+<li><strong>How Do Users Like This Feature? A Fine Grained Sentiment Analysis of App Reviews</strong> RE 2014. <a href="">[pdf]</a></li>
+<li><strong>Automatic extraction of glossary terms from natural language requirements</strong> RE 2013. <a href="">[pdf]</a></li>
 </ul>
 <h2>Requirements Classification</h2>
 <ul>
-<li><strong>PRCBERT: Prompt Learning for Requirement Classification using BERT-based Pretrained Language Models</strong> (2022), ASE 2022. <a href="https://dl.acm.org/doi/10.1145/3551349.3560417">[pdf]</a></li>
+<li><strong>Which AI Technique Is Better to Classify Requirements? An Experiment with SVM, LSTM, and ChatGPT</strong> ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>PRCBERT: Prompt Learning for Requirement Classification using BERT-based Pretrained Language Models</strong> ASE 2022. <a href="https://dl.acm.org/doi/10.1145/3551349.3560417">[pdf]</a></li>
+<li><strong>Automated classification of actions in bug reports of mobile apps</strong> ISSTA. <a href="">[pdf]</a></li>
+<li><strong>Domain Adaptation for Test Report Classification in Crowdsourced Testing</strong> ICSE 2017. <a href="">[pdf]</a></li>
+<li><strong>Applying deep learning based automatic bug triager to industrial projects</strong> FSE 2017. <a href="">[pdf]</a></li>
+<li><strong>Ardoc: App reviews development oriented classifier</strong> FSE 2016. <a href="">[pdf]</a></li>
+<li><strong>Analyzing and automatically labelling the types of user issues that are raised in mobile app reviews</strong> ESE 2016. <a href="">[pdf]</a></li>
+<li><strong>How can i improve my app? Classifying user reviews for software maintenance and evolution</strong> ICSME 2015. <a href="">[pdf]</a></li>
+<li><strong>Bug report, feature request, or simply praise? On automatically classifying app reviews</strong> RE 2015. <a href="">[pdf]</a></li>
+<li><strong>Ensemble methods for app review classification: An approach for software evolution</strong> ASE 2015</li>
+<li><strong>AR-miner: mining informative reviews for developers from mobile app marketplace</strong> ICSE 2014. <a href="">[pdf]</a></li>
 </ul>
 <h2>Requirements Ambiguity</h2>
 <ul>
-<li><strong>TAPHSIR: towards AnaPHoric ambiguity detection and ReSolution in requirements</strong> (2022), FSE 2022. <a href="https://dl.acm.org/doi/10.1145/3540250.3558928">[pdf]</a></li>
+<li><strong>Automated Handling of Anaphoric Ambiguity in Requirements: A Multi-solution Study</strong> ICSE 2022. <a href="https://dl.acm.org/doi/10.1145/3510003.3510157">[pdf]</a> </li>
+<li><strong>TAPHSIR: towards AnaPHoric ambiguity detection and ReSolution in requirements</strong> FSE 2022. <a href="https://dl.acm.org/doi/10.1145/3540250.3558928">[pdf]</a></li>
+<li><strong>Using Domain-specific Corpora for Improved Handling of Ambiguity in Requirements</strong> ICSE 2021. <a href="https://ieeexplore.ieee.org/document/9402055/">[pdf]</a></li>
+<li><strong>A Deep Context-wise Method for Coreference Detection in Natural Language Requirements</strong> RE 2020. <a href="">[pdf]</a></li>
 </ul>
 <h2>Requirements Consistency</h2>
 <ul>
-<li><strong>Reasoning about inconsistencies in natural language requirements</strong>(2005), TOSEM 2015. <a href="https://dl.acm.org/doi/pdf/10.1145/1072997.1072999">[pdf]</a></li>
-<li><strong>Automated Consistency Checking of Requirements Specifications</strong> (1996), TOSEM 1996. <a href="https://dl.acm.org/doi/pdf/10.1145/234426.234431">[pdf]</a></li>
+<li><strong>Inconsistency Detection in Natural Language Requirements using ChatGPT: a Preliminary Evaluation</strong> RE 2023. <a href="">[pdf]</a></li>
+<li><strong>Consistency checking in requirements analysis</strong> ISSTA 2017. <a href="https://dl.acm.org/doi/10.1145/3092703.3098239">[pdf]</a></li>
+<li><strong>Reasoning about inconsistencies in natural language requirements</strong> TOSEM 2015. <a href="https://dl.acm.org/doi/pdf/10.1145/1072997.1072999">[pdf]</a></li>
+<li><strong>Automated Consistency Checking of Requirements Specifications</strong> TOSEM 1996. <a href="https://dl.acm.org/doi/pdf/10.1145/234426.234431">[pdf]</a></li>
 </ul>
 <h2>Requirements Prioritization</h2>
 <ul>
-<li><strong>Uncertainty-wise Requirements Prioritization with Search</strong> (2021), TOSEM 2021. <a href="https://dl.acm.org/doi/pdf/10.1145/3408301">[pdf]</a>.</li>
+<li><strong>Uncertainty-wise Requirements Prioritization with Search</strong> TOSEM 2021. <a href="https://dl.acm.org/doi/pdf/10.1145/3408301">[pdf]</a>.</li>
 </ul>
 <h2>Requirements Dependency</h2>
 <ul>
-<li><strong>A Zone-Based Model for Analysis of Dependent Failures in Requirements Inspection</strong> (2023), TSE 2023. <a href="https://dl.acm.org/doi/10.1109/TSE.2023.3266157">[pdf]</a> </li>
-<li><strong>Detecting Software Security Vulnerabilities Via Requirements Dependency Analysis</strong> (2022), TSE 2022. <a href="https://ieeexplore.ieee.org/document/9222252">[pdf]</a></li>
+<li><strong>A Zone-Based Model for Analysis of Dependent Failures in Requirements Inspection</strong> TSE 2023. <a href="https://dl.acm.org/doi/10.1109/TSE.2023.3266157">[pdf]</a> </li>
+<li><strong>Detecting Software Security Vulnerabilities Via Requirements Dependency Analysis</strong> TSE 2022. <a href="https://ieeexplore.ieee.org/document/9222252">[pdf]</a></li>
 </ul>
 <h2>Requirements Changes</h2>
 <ul>
-<li><strong>The Emotional Roller Coaster of Responding to Requirements Changes in Software Engineering</strong> (2023), TSE 2023. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9769966">[pdf]</a></li>
-<li><strong>A Framework for Emotion-Oriented Requirements Change Handling in Agile Software Engineering</strong> (2023), TSE 2023. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10061282">[pdf]</a></li>
-<li><strong>A Faceted Taxonomy of Requirements Changes in Agile Contexts</strong> (2022), TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9513607">[pdf]</a></li>
-<li><strong>A Prediction Model for Software Requirements Change Impact</strong> (2o21), ASE 2021. <a href="https://ieeexplore.ieee.org/document/9678582">[pdf]</a></li>
-<li><strong>Automated change impact analysis between SysML models of requirements and design</strong> (2016), FSE 2016. <a href="https://dl.acm.org/doi/pdf/10.1145/2950290.2950293">[pdf]</a></li>
-<li><strong>NARCIA: an automated tool for change impact analysis in natural language requirements</strong> (2015), FSE 2015. <a href="https://dl.acm.org/doi/pdf/10.1145/2786805.2803185">[pdf]</a></li>
+<li><strong>The Emotional Roller Coaster of Responding to Requirements Changes in Software Engineering</strong> TSE 2023. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9769966">[pdf]</a></li>
+<li><strong>A Framework for Emotion-Oriented Requirements Change Handling in Agile Software Engineering</strong> TSE 2023. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10061282">[pdf]</a></li>
+<li><strong>A Faceted Taxonomy of Requirements Changes in Agile Contexts</strong> TSE 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9513607">[pdf]</a></li>
+<li><strong>A Prediction Model for Software Requirements Change Impact</strong> ASE 2021. <a href="https://ieeexplore.ieee.org/document/9678582">[pdf]</a></li>
+<li><strong>Automated change impact analysis between SysML models of requirements and design</strong> FSE 2016. <a href="https://dl.acm.org/doi/pdf/10.1145/2950290.2950293">[pdf]</a></li>
+<li><strong>NARCIA: an automated tool for change impact analysis in natural language requirements</strong> FSE 2015. <a href="https://dl.acm.org/doi/pdf/10.1145/2786805.2803185">[pdf]</a></li>
 </ul>
 <h2>Requirements Traceability</h2>
 <ul>
-<li><strong>Using Consensual Biterms from Text Structures of Requirements and Code to Improve IR-Based Traceability Recovery</strong> (2022), ASE 2022. <a href="https://dl.acm.org/doi/10.1145/3551349.3556948">[pdf]</a></li>
-<li><strong>Leveraging Historical Associations between Requirements and Source Code to Identify Impacted Classes</strong> (2020), TSE 2020. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8423658">[pdf]</a></li>
-<li><strong>Imprecise Matching of Requirements Specifications for Software Services Using Fuzzy Logic</strong> (2017), TSE 2017. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7755807">[pdf]</a></li>
-<li><strong>Preventing Defects: The Impact of Requirements Traceability Completeness on Software Quality</strong> (2017), TSE 2017. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7723818">[pdf]</a></li>
-<li><strong>Gray links in the use of requirements traceability</strong> (2016), FSE 2016. <a href="https://dl.acm.org/doi/pdf/10.1145/2950290.2950354">[pdf]</a></li>
+<li><strong>Cross-Domain Requirements Linking via Adversarial-based Domain Adaptation</strong> ICSE 2023. <a href="https://ieeexplore.ieee.org/document/10172688/">[pdf]</a></li>
+<li><strong>Using Consensual Biterms from Text Structures of Requirements and Code to Improve IR-Based Traceability Recovery</strong> ASE 2022. <a href="https://dl.acm.org/doi/10.1145/3551349.3556948">[pdf]</a></li>
+<li><strong>A novel approach to tracing safety requirements and state-based design models</strong> ICSE 2020. <a href="https://dl.acm.org/doi/10.1145/3377811.3380332">[pdf]</a></li>
+<li><strong>Leveraging Historical Associations between Requirements and Source Code to Identify Impacted Classes</strong> TSE 2020. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8423658">[pdf]</a></li>
+<li><strong>Improving the effectiveness of traceability link recovery using hierarchical bayesian networks</strong> ICSE 2020. <a href="">[pdf]</a></li>
+<li><strong>Establishing multilevel test-to-code traceability links</strong> ICSE 2020. <a href="">[pdf]</a></li>
+<li><strong>Traceability in the wild: automatically augmenting incomplete trace links</strong> ICSE 2018. <a href="">[pdf]</a></li>
+<li><strong>Imprecise Matching of Requirements Specifications for Software Services Using Fuzzy Logic</strong> TSE 2017. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7755807">[pdf]</a></li>
+<li><strong>Preventing Defects: The Impact of Requirements Traceability Completeness on Software Quality</strong> TSE 2017. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7723818">[pdf]</a></li>
+<li><strong>Semantically enhanced software traceability using deep learning techniques</strong> ICSE 2017. <a href="">[pdf]</a></li>
+<li><strong>Gray links in the use of requirements traceability</strong> FSE 2016. <a href="https://dl.acm.org/doi/pdf/10.1145/2950290.2950354">[pdf]</a></li>
+</ul>
+<h2>Requirements Generation</h2>
+<ul>
+<li><strong>On-Demand Security Requirements Synthesis with Relational Generative Adversarial Networks</strong> ICSE 2023. <a href="https://ieeexplore.ieee.org/document/10172729/">[pdf]</a></li>
+<li><strong>Towards Human-Bot Collaborative Software Architecting with ChatGPT</strong> EASE 2023. <a href="">[pdf]</a></li>
+<li><strong>Impact of Large Language Models on Generating Software Specifications</strong> ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>Improving Requirements Completeness: Automated Assistance through Large Language Models</strong> ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>Automated Generating Natural Language Requirements based on Domain Ontology</strong> ArXiv 2022. <a href="">[pdf]</a></li>
+<li><strong>StoryDroid: automated generation of storyboard for Android apps</strong> ICSE 2019. <a href="https://ieeexplore.ieee.org/document/8812084">[pdf]</a></li>
+<li><strong>Automatic Generation of Graphical User Interface Prototypes from Unrestricted Natural Language Requirements</strong> ASE 2019.</li>
+</ul>
+<h2>Formal Requirements</h2>
+<ul>
+<li><strong>DeepSTL - From English Requirements to Signal Temporal Logic</strong> ICSE 2022. <a href="">[pdf]</a></li>
 </ul>
 <h2>Survey</h2>
 <ul>
 <li><strong>Status Quo in Requirements Engineering: A Theory and a Global Family of Surveys</strong> (2019), TOSEM 2019. <a href="https://dl.acm.org/doi/pdf/10.1145/3306607">[pdf]</a></li>
+</ul>
+<h2>Misc</h2>
+<ul>
+<li><strong>Advancing Requirements Engineering through Generative AI: Assessing the Role of LLMs</strong> (2023), ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>Advancing Requirements Engineering through Generative AI: Assessing the Role of LLMs</strong> (2023), ArXiv 2023. <a href="">[pdf]</a></li>
+<li><strong>AI-based Question Answering Assistance for Analyzing Natural-language Requirements</strong> (2023), ICSE 2023. <a href="">[pdf]</a></li>
+<li><strong>If a Human Can See It, So Should Your System: Reliability Requirements for Machine Vision Components</strong> (2022), ICSE 2022. <a href="">[pdf]</a></li>
+<li><strong>Dialogue Disentanglement in Software Engineering: How Far are We?</strong> (2021), IJCAI 2021. <a href="">[pdf]</a></li>
+<li><strong>MuiDial: Improving Dialogue Disentanglement with Intent-Based Mutual Learning</strong> (2022), IJCAI 2022. <a href="">[pdf]</a></li>
 </ul>
 <h1>PhD Thesis</h1>
 <h1>Talks</h1>
@@ -125,17 +207,17 @@
 <p><a href="https://sites.google.com/site/mrkarim/data-sets">ReleasePlanner</a>: This publicly accessible dataset has 25
 requirements and 39 dependencies. </p>
 </li>
+<li>
+<p><a href="https://github.com/GIST-NJU/KEFE/">KeyFeature</a>: This dataset has Chinese requirement description and user review. It can be used to assess extract key feature from requirement description.</p>
+</li>
 </ul>
 <h1>Tools</h1>
 <h1>Research Groups</h1>
 <ul>
 <li><a href="https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&amp;hl=zh-CN">Jin Zhi</a>, Peking University, requirements engineering and software automation.</li>
-<li>
-<p><a href="https://people.ucas.edu.cn/~shilin?language=en">Shi Lin</a>, Beihang University, crowd requirements engineering.</p>
-</li>
-<li>
-<p><a href="https://sites.google.com/site/johncgrundy/">John Grundy</a>, Monash University, Human Aspects of RE. </p>
-</li>
+<li><a href="https://scholar.google.com/citations?hl=en&amp;user=jBcYmbwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Shi Lin</a>, Beihang University, Intelligent Requirements Engineering.</li>
+<li><a href="https://sites.google.com/site/johncgrundy/">John Grundy</a>, Monash University, Human Aspects of RE. </li>
+<li><a href="https://scholar.google.com/citations?hl=en&amp;user=Zj897NoAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Lionel C. Briand</a>, University of Ottawa, Requirement Analysis and Quality.</li>
 </ul>
 <h1>Venues</h1>
 <h2>Conferences</h2>

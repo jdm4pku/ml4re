@@ -70,7 +70,6 @@ Welcome to send a pull request to add papers and relevant content.
 - **How Templated Requirements Specifications Inhibit Creativity in Software Engineering** TSE 2022. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9537306)
 
 ## Requirements Extraction
-> Extraction requirement from user review, SRS, QA-website, social media.
 - **Empirical Evaluation of ChatGPT on Requirements Information Retrieval Under Zero-Shot Setting** ArXiv 2023. [[pdf]]()
 - **Zero-shot Learning for Named Entity Recognition in Software Specification Documents** RE 2023. [[pdf]]()
 - **Where is Your App Frustrating Users** ICSE 2022. [[pdf]](https://arxiv.org/abs/2204.09310) [[code]]()
@@ -80,7 +79,8 @@ Welcome to send a pull request to add papers and relevant content.
 - **Learning to extract transaction function from requirements: an industrial case on financial software** FSE 2020. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3368089.3417053)
 - **Automatic Extraction of Cause-Effect-Relations from Requirements Artifacts** ASE 2020. [[pdf]](https://dl.acm.org/doi/10.1145/3324884.3416549)
 - **Caspar: extracting and synthesizing user stories of problems from app reviews** ICSE 2020. [[pdf]]()
-- **Automated Extraction of Requirement Entities by Leveraging LSTM-CRF and Transfer Learning** ICSME. [[pdf]]()
+- **Automating Intention Mining** TSE 2020. [[pdf]]()
+- **Automated Extraction of Requirement Entities by Leveraging LSTM-CRF and Transfer Learning** ICSME 2019. [[pdf]]()
 - **Supporting analysts by dynamic extraction and classification of requirements-related knowledge** ICSE 2019. [[pdf]](https://ieeexplore.ieee.org/document/8812084)
 - **Pattern-based mining of opinions in Q&A websites** ICSE 2019. [[pdf]]()
 - **INFAR: insight extraction from app reviews** FSE 2018. [[pdf]]()
@@ -96,6 +96,7 @@ Welcome to send a pull request to add papers and relevant content.
 - **What Parts of Your Apps are Loved by Users** ASE 2015. [[pdf]]()
 - **Mining User Opinions in Mobile App Reviews: A Keyword-Based Approach** ASE 2015. [[pdf]]()
 - **How Do Users Like This Feature? A Fine Grained Sentiment Analysis of App Reviews** RE 2014. [[pdf]]()
+- **Automatic extraction of glossary terms from natural language requirements** RE 2013. [[pdf]]()
 
 
 ## Requirements Classification
@@ -208,6 +209,8 @@ requirements and 39 dependencies.
 - [Jin Zhi](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN), Peking University, requirements engineering and software automation.
 - [Shi Lin](https://scholar.google.com/citations?hl=en&user=jBcYmbwAAAAJ&view_op=list_works&sortby=pubdate), Beihang University, Intelligent Requirements Engineering.
 - [John Grundy](https://sites.google.com/site/johncgrundy/), Monash University, Human Aspects of RE. 
+- [Lionel C. Briand](https://scholar.google.com/citations?hl=en&user=Zj897NoAAAAJ&view_op=list_works&sortby=pubdate), University of Ottawa, Requirement Analysis and Quality.
+
 
 # Venues
 
