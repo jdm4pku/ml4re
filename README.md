@@ -88,9 +88,8 @@ Welcome to send a pull request to add papers and relevant content.
 - **Online app review analysis for identifying emerging issues** ICSE 2018. [[pdf]]()
 - **Infar: Insight extraction from app reviews** FSE 2018. [[pdf]]()
 - **SAFE: A Simple Approach for Feature Extraction from App Descriptions andApp Reviews** RE 2017. [[pdf]]()
-- **Automated Extraction and Clustering of Requirements Glossary Terms** TSE 2017. [[pdf]](https://ieeexplore.ieee.org/document/7765062)
+- **Automated Extraction and Clustering of Requirements Glossary Terms** TSE 2017. [[pdf]](https://ieeexplore.ieee.org/document/7765062) 
 - **A systematic literature review: Opinion mining studies from mobile app store user reviews** JSS 2017. [[pdf]]()
-
 - **What would users change in my app? summarizing app reviews for recommending software changes** FSE 2016. [[pdf]]()
 - **Phrase-based extraction of user opinions in mobile app reviews** ASE 2016. [[pdf]]()
 - **What Parts of Your Apps are Loved by Users** ASE 2015. [[pdf]]()
@@ -105,6 +104,7 @@ Welcome to send a pull request to add papers and relevant content.
 - **Automated classification of actions in bug reports of mobile apps** ISSTA. [[pdf]]()
 - **Domain Adaptation for Test Report Classification in Crowdsourced Testing** ICSE 2017. [[pdf]]()
 - **Applying deep learning based automatic bug triager to industrial projects** FSE 2017. [[pdf]]()
+- **What works better? a study of classifying requirements** RE 2017. [[pdf]]()
 - **Ardoc: App reviews development oriented classifier** FSE 2016. [[pdf]]()
 - **Analyzing and automatically labelling the types of user issues that are raised in mobile app reviews** ESE 2016. [[pdf]]()
 - **How can i improve my app? Classifying user reviews for software maintenance and evolution** ICSME 2015. [[pdf]]()
